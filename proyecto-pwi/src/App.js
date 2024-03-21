@@ -7,8 +7,12 @@ import EditToDoForm from "./components/EditToDoForm";
 function App() {
   return (
     <div className="App">
-      <h1>To-Do List</h1>
-     <ToDoWrapper />
+    <BrowserRouter>
+    <Routes>
+    <Route path="" element= {<ToDoWrapper/>} />
+    <Route path="/Editar" element= {<EditToDoForm/>} />
+    </Routes>
+    </BrowserRouter>
     </div>
   );
 }
