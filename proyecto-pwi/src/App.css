@@ -122,6 +122,26 @@ button.btn {
   border-radius: 5px;
 }
 
+button.btn_Edi {
+  padding: 2px 7px;
+  font-size: 16px;
+  background-color: #4b52d9;
+  color: white;
+  border: none;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+button.btn_Edi:hover {
+  background-color: #d1a100;
+  cursor: pointer;
+}
+
+button.btn:hover {
+  background-color: #ff2e2e;
+  cursor: pointer;
+}
+
 i.fa-solid.fa-trash {
   margin-left: 0px;
 }
